@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-09-16T00:00:00.000Z" agent="ChatGPT" version="24.7.17">
+<diagram id="primeira-visao-poo" name="primeira-visao-poo">
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+<root><mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="2" value="Classe&lt;br&gt;&lt;br&gt;define estrutura e comportamento" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="100" y="180" width="220" height="110" as="geometry"/></mxCell>
+<mxCell id="3" value="Objeto&lt;br&gt;&lt;br&gt;instância de uma classe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="430" y="180" width="220" height="110" as="geometry"/></mxCell>
+<mxCell id="4" value="Atributos&lt;br&gt;&lt;br&gt;características / estado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="760" y="90" width="220" height="100" as="geometry"/></mxCell>
+<mxCell id="5" value="Comportamentos&lt;br&gt;&lt;br&gt;ações / métodos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="760" y="260" width="220" height="100" as="geometry"/></mxCell>
+<mxCell id="e1" value="" edge="1" parent="1" source="2" target="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"/>
+<mxCell id="e2" value="" edge="1" parent="1" source="3" target="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"/>
+<mxCell id="e3" value="" edge="1" parent="1" source="3" target="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;"/>
+</root></mxGraphModel></diagram></mxfile>

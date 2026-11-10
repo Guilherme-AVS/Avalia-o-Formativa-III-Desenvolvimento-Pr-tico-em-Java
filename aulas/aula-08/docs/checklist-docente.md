@@ -1,0 +1,22 @@
+# Checklist docente
+
+- [ ] Retomar ArrayList.
+- [ ] Trabalhar problema real.
+- [ ] Identificar substantivos.
+- [ ] Identificar verbos.
+- [ ] Explicar classe.
+- [ ] Explicar objeto.
+- [ ] Criar atributos.
+- [ ] Criar métodos.
+- [ ] Introduzir private/get/set.
+- [ ] Discutir coesão.
+- [ ] Discutir acoplamento.
+- [ ] Apresentar UML.
+- [ ] Trabalhar 1:1.
+- [ ] Trabalhar 1:N.
+- [ ] Trabalhar agregação.
+- [ ] Trabalhar composição.
+- [ ] Trabalhar dependência.
+- [ ] Executar PBL.
+- [ ] Comparar soluções.
+- [ ] Preparar transição para construtores.

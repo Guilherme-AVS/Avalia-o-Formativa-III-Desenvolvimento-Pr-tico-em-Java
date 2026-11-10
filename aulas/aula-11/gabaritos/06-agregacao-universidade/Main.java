@@ -1,0 +1,1 @@
+import java.util.ArrayList;public class Main{public static void main(String[] args){Professor p=new Professor("Ana");ArrayList<Professor> ps=new ArrayList<>();ps.add(p);new Universidade(ps).listar();}}

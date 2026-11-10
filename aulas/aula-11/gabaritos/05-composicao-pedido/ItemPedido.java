@@ -1,0 +1,1 @@
+public class ItemPedido { private final String produto; private final int quantidade; private final double preco; public ItemPedido(String p,int q,double pr){produto=p;quantidade=q;preco=pr;} public double getTotal(){return quantidade*preco;} }

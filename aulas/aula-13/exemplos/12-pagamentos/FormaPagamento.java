@@ -1,0 +1,1 @@
+public abstract class FormaPagamento {protected String nome;protected double valor;public FormaPagamento(String n,double v){nome=n;valor=v;}public abstract double calcularTaxa();public void exibir(){System.out.printf("%s: %.2f%n",nome,calcularTaxa());}}

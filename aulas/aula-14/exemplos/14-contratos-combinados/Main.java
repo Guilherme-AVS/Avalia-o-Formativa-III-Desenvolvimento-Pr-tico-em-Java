@@ -1,0 +1,1 @@
+public class Main { public static void main(String[] args){ Colaborador c=new Colaborador("Ana","000",5000,"123"); Identificavel i=c; Remuneravel r=c; Autenticavel a=c; System.out.println(i.getNome()+" "+r.calcularSalario()+" "+a.autenticar("123")); } }

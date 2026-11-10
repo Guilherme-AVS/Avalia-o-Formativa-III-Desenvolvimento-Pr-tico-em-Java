@@ -1,0 +1,1 @@
+public class Guitarra extends Instrumento {private int trastes;public Guitarra(String m,int a,double p,int t){super(m,a,p);trastes=t;}public String produzirSom(){return "Guitarra";}public String afinar(){return "Afinando guitarra";}}

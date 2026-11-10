@@ -1,0 +1,1 @@
+public class SmsNotificador implements Notificavel { private final String telefone; public SmsNotificador(String t){telefone=t;} public void enviar(String m){System.out.println("SMS para "+telefone+": "+m);} public String getDestinatario(){return telefone;} }

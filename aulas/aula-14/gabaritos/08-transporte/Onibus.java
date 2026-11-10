@@ -1,0 +1,1 @@
+public class Onibus extends MeioDeTransporte implements RastreavelGPS { private String posicao="Terminal"; public Onibus(){super("Ônibus",45,70,3.2);} public void partir(String d){System.out.println("Ônibus partindo para "+d);} public String getPosicaoAtual(){return posicao;} public void atualizarPosicao(double lat,double lon){posicao=lat+","+lon;} }

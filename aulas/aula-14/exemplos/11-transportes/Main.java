@@ -1,0 +1,1 @@
+import java.util.*; public class Main { public static void main(String[] args){ List<Transportavel> ts=List.of(new Onibus(),new Aviao()); for(Transportavel t:ts){t.embarcar(10);t.partir("Recife");t.chegar();} } }

@@ -1,0 +1,1 @@
+public class Main { public static void main(String[] args){ Exportavel[] xs={new ExportadorPdf(),new ExportadorCsv()}; for(Exportavel x:xs)System.out.println(x.nomeArquivo()+" "+x.exportar().length+" bytes"); } }

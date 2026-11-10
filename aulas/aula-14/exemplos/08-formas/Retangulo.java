@@ -1,0 +1,1 @@
+public class Retangulo implements Calculavel { private final double largura,altura; public Retangulo(double l,double a){if(l<=0||a<=0)throw new IllegalArgumentException("Dimensão inválida");largura=l;altura=a;} public double calcularArea(){return largura*altura;} public double calcularPerimetro(){return 2*(largura+altura);} public String getNome(){return "Retângulo";} }

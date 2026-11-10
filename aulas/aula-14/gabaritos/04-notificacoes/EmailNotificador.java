@@ -1,0 +1,1 @@
+public class EmailNotificador implements Notificavel { private final String email; public EmailNotificador(String e){email=e;} public void enviar(String m){System.out.println("Email para "+email+": "+m);} public String getDestinatario(){return email;} }

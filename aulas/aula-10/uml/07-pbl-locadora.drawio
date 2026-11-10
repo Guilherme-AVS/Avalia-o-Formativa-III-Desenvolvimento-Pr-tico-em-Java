@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net"><diagram name="PBL — Locadora"><mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c0" value="Veiculo
+- placa : String
+- precoDiaria : double
+- disponivel : boolean
+---
++ getPlaca() : String
++ setPrecoDiaria(p:double) : void" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1"><mxGeometry x="40" y="40" width="240" height="190" as="geometry"/></mxCell><mxCell id="c1" value="Cliente
+- cpf : String
+- nome : String
+- email : String
+---
++ getCpf() : String
++ setEmail(e:String) : void" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1"><mxGeometry x="320" y="40" width="240" height="190" as="geometry"/></mxCell><mxCell id="c2" value="Locacao
+- veiculo : Veiculo
+- cliente : Cliente
+- dataInicio : LocalDate
+- dataFim : LocalDate
+---
++ getValorTotal() : double" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1"><mxGeometry x="600" y="40" width="240" height="190" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>

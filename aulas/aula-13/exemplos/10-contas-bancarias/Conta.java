@@ -1,0 +1,1 @@
+public abstract class Conta {protected String titular;protected double saldo;public Conta(String t,double s){titular=t;saldo=s;}public void depositar(double v){if(v>0)saldo+=v;}public void exibirExtrato(){System.out.printf("%s | %s | %.2f%n",titular,getTipo(),saldo);}public abstract void sacar(double v);public abstract String getTipo();}

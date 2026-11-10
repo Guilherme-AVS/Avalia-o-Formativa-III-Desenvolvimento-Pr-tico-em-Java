@@ -1,0 +1,1 @@
+public abstract class Personagem {protected String nome;protected double valor;public Personagem(String n,double v){nome=n;valor=v;}public abstract String atacar();public void exibir(){System.out.println(atacar());}}

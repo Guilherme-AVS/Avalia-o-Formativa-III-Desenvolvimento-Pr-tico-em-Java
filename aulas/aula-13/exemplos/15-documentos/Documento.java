@@ -1,0 +1,1 @@
+public abstract class Documento {protected String nome;protected double valor;public Documento(String n,double v){nome=n;valor=v;}public abstract String exportar();public void exibir(){System.out.println(exportar());}}

@@ -1,0 +1,1 @@
+public class EntregaExpressa extends Entrega { private final double valorProduto; public EntregaExpressa(double valorProduto){this.valorProduto=valorProduto;} @Override public double calcularFrete(){return 25+valorProduto*0.05;} }

@@ -1,0 +1,1 @@
+public abstract class Frete {protected String nome;protected double valor;public Frete(String n,double v){nome=n;valor=v;}public abstract double calcularFrete();public void exibir(){System.out.printf("%s: %.2f%n",nome,calcularFrete());}}

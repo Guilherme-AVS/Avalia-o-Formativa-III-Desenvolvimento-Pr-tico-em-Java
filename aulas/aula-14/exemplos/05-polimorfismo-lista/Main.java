@@ -1,0 +1,1 @@
+import java.util.*; public class Main { public static void main(String[] args){ List<Pagavel> itens=List.of(new Produto("Notebook",3500),new Servico("Manutenção",180,2)); for(Pagavel p:itens) System.out.println(p.gerarRecibo()); } }

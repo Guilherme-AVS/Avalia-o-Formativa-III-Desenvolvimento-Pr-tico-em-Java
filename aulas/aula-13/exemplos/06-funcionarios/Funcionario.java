@@ -1,0 +1,1 @@
+public abstract class Funcionario {protected String nome;protected double salarioBase;public Funcionario(String n,double s){nome=n;salarioBase=s;}public abstract double calcularSalario();public void exibir(){System.out.printf("%s %.2f%n",nome,calcularSalario());}}

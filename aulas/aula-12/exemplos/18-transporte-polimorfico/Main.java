@@ -1,0 +1,1 @@
+public class Main { public static void main(String[] args){SistemaTransporte s=new SistemaTransporte(); s.iniciarViagem(new Carro(5,100),20); s.iniciarViagem(new Onibus(204,40,60),20); s.iniciarViagem(new Bicicleta(),8);} }

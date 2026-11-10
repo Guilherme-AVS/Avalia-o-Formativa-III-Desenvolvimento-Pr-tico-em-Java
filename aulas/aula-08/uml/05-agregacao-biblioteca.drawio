@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-09-16T00:00:00.000Z" agent="ChatGPT" version="24.7.17">
+<diagram id="aula08" name="05 — Agregação">
+<mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000">
+<root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c1" value="&lt;b&gt;Biblioteca&lt;/b&gt;&lt;hr/&gt;- nome : String&lt;br/&gt;- acervo : List&lt;Livro&gt;&lt;hr/&gt;+ adicionarLivro(l : Livro) : void" style="shape=umlClass;whiteSpace=wrap;html=1;container=1;recursiveResize=0;align=left;verticalAlign=top;spacingTop=5;spacingLeft=5;" vertex="1" parent="1"><mxGeometry x="70" y="110" width="320" height="170" as="geometry"/></mxCell><mxCell id="c2" value="&lt;b&gt;Livro&lt;/b&gt;&lt;hr/&gt;- titulo : String&lt;br/&gt;- autor : String&lt;hr/&gt;+ getTitulo() : String" style="shape=umlClass;whiteSpace=wrap;html=1;container=1;recursiveResize=0;align=left;verticalAlign=top;spacingTop=5;spacingLeft=5;" vertex="1" parent="1"><mxGeometry x="520" y="110" width="280" height="150" as="geometry"/></mxCell><mxCell id="100" value="acervo&lt;br/&gt;1 : 0..*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=diamond;endFill=0;" edge="1" parent="1" source="c1" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell></root>
+</mxGraphModel>
+</diagram>
+</mxfile>

@@ -1,0 +1,1 @@
+public class ContaPoupanca extends Conta {private double taxa;public ContaPoupanca(String t,double s,double tx){super(t,s);taxa=tx;}public void sacar(double v){if(v>0&&v<=saldo)saldo-=v;}public void renderJuros(){saldo+=saldo*taxa;}public String getTipo(){return "Conta Poupanca";}}

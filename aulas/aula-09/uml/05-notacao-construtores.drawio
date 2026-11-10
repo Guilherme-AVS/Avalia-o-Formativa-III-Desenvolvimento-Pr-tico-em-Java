@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Notação UML para construtores" id="aula09">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a" value="Produto" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="- nome: String&lt;br/&gt;- preco: double&lt;br/&gt;- marca: String" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="«constructor»&lt;br/&gt;+ Produto(nome: String)&lt;br/&gt;+ Produto(nome: String, preco: double)&lt;br/&gt;+ Produto(nome: String, preco: double, marca: String)" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="300" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

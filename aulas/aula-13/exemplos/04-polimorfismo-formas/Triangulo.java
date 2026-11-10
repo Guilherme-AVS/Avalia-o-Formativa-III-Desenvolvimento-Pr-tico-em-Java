@@ -1,0 +1,1 @@
+public class Triangulo extends Forma {private double a,b,c;public Triangulo(String c,double a,double b,double cc){super(c);this.a=a;this.b=b;this.c=cc;}public double calcularArea(){double s=(a+b+c)/2;return Math.sqrt(s*(s-a)*(s-b)*(s-c));}public double calcularPerimetro(){return a+b+c;}}

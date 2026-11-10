@@ -1,0 +1,1 @@
+import java.util.ArrayList;import java.util.List; public class Pedido { private final List<ItemPedido> itens=new ArrayList<>(); public void adicionarItem(String p,int q,double pr){itens.add(new ItemPedido(p,q,pr));} public double calcularTotal(){double t=0;for(ItemPedido i:itens)t+=i.getTotal();return t;} }

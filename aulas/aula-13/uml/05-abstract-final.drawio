@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><mxfile host="app.diagrams.net"><diagram name="05-abstract-final"><mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="a" value="«abstract» Forma
++ final getCor()
++ calcularArea()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" vertex="1" parent="1"><mxGeometry x="80" y="80" width="250" height="120" as="geometry"/></mxCell><mxCell id="b" value="Circulo
++ calcularArea()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="430" y="80" width="250" height="90" as="geometry"/></mxCell><mxCell id="c" value="Classe final
+não pode ser estendida" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="180" y="300" width="260" height="90" as="geometry"/></mxCell><mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="b" target="a"><mxGeometry relative="1" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>

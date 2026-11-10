@@ -1,0 +1,1 @@
+public class Veiculo { private final String placa; private final double capacidadeKg; private final int velocidadeMaxima; public Veiculo(String p,double c,int v){placa=p;capacidadeKg=c;velocidadeMaxima=v;} @Override public String toString(){return "Veiculo{placa='"+placa+"', capacidade="+capacidadeKg+", velocidade="+velocidadeMaxima+"}";} }

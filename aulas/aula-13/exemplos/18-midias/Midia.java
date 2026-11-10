@@ -1,0 +1,1 @@
+public abstract class Midia {protected String nome;protected double valor;public Midia(String n,double v){nome=n;valor=v;}public abstract String reproduzir();public void exibir(){System.out.println(reproduzir());}}

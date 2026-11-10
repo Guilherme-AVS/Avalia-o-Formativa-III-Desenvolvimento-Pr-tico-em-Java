@@ -1,0 +1,1 @@
+public class ItemBiblioteca { protected String titulo; public ItemBiblioteca(String titulo){this.titulo=titulo;} public double calcularMulta(int diasAtraso){return diasAtraso*1.0;} public String getTitulo(){return titulo;} }

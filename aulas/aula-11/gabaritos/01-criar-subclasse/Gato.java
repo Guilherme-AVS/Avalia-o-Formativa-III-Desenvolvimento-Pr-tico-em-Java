@@ -1,0 +1,1 @@
+public class Gato extends Animal { private final String cor; public Gato(String nome,int idade,String cor){super(nome,idade);this.cor=cor;} public void miar(){System.out.println("Miau!");} public void mostrarInfo(){System.out.println(nome+" / "+idade+" / "+cor);} }

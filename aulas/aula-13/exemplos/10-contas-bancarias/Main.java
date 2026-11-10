@@ -1,0 +1,1 @@
+public class Main {public static void main(String[] args){Conta[] cs={new ContaCorrente("Ana",2000,500),new ContaPoupanca("Bruno",3000,.005),new ContaInvestimento("Carla",5000,"Moderado")};for(Conta c:cs){c.depositar(500);c.sacar(300);c.exibirExtrato();}}}

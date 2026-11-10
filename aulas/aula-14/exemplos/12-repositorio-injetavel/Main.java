@@ -1,0 +1,1 @@
+public class Main { public static void main(String[] args){ new ProcessadorPedido(new MemoriaRepositorio()).processar("Pedido #42"); new ProcessadorPedido(new PostgreSQLRepositorio()).processar("Pedido #43"); } }

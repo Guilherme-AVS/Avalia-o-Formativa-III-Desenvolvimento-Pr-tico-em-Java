@@ -1,0 +1,1 @@
+public class Carro extends Veiculo { private final int numPortas; public Carro(String marca,int ano,int numPortas){super(marca,ano);this.numPortas=numPortas;} @Override public void exibirInfo(){super.exibirInfo();System.out.println("Portas: "+numPortas);} }

@@ -1,0 +1,1 @@
+public class ContaInvestimento extends Conta {private String risco;public ContaInvestimento(String t,double s,String r){super(t,s);risco=r;}public void sacar(double v){if(v>0&&saldo-v>1000)saldo-=v;}public String getTipo(){return "Conta Investimento ("+risco+")";}}

@@ -1,0 +1,1 @@
+public class EntregaAerea extends Entrega { private final double peso,taxaUrgencia; public EntregaAerea(double peso,double taxaUrgencia){this.peso=peso;this.taxaUrgencia=taxaUrgencia;} @Override public double calcularFrete(){return peso*3+taxaUrgencia;} }

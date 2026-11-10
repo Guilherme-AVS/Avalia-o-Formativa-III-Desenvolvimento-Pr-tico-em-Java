@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-09-16T00:00:00.000Z" agent="ChatGPT" version="24.7.17">
+<diagram id="aula08" name="01 — Classe Livro">
+<mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000">
+<root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c1" value="&lt;b&gt;Livro&lt;/b&gt;&lt;hr/&gt;- titulo : String&lt;br/&gt;- autor : String&lt;br/&gt;- isbn : String&lt;hr/&gt;+ emprestar() : boolean&lt;br/&gt;+ devolver() : void&lt;br/&gt;+ getTitulo() : String" style="shape=umlClass;whiteSpace=wrap;html=1;container=1;recursiveResize=0;align=left;verticalAlign=top;spacingTop=5;spacingLeft=5;" vertex="1" parent="1"><mxGeometry x="80" y="80" width="300" height="190" as="geometry"/></mxCell></root>
+</mxGraphModel>
+</diagram>
+</mxfile>

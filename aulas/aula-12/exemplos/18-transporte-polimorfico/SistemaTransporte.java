@@ -1,0 +1,1 @@
+public class SistemaTransporte { public void iniciarViagem(MeioTransporte transporte,double distancia){System.out.println("Iniciando viagem...");transporte.exibirInfo();transporte.mover(distancia);System.out.println("Viagem finalizada!");} }

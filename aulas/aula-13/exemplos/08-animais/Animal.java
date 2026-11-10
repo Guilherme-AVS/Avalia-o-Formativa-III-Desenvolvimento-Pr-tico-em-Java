@@ -1,0 +1,1 @@
+public abstract class Animal {protected String nome;protected int idade;public Animal(String n,int i){nome=n;idade=i;}public abstract String emitirSom();public void exibir(){System.out.println(nome+" "+idade);}}

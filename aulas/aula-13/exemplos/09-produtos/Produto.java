@@ -1,0 +1,1 @@
+public abstract class Produto {protected String nome;protected double preco;public Produto(String n,double p){nome=n;preco=p;}public abstract double calcularCusto();public void exibir(){System.out.printf("%s %.2f%n",nome,calcularCusto());}}

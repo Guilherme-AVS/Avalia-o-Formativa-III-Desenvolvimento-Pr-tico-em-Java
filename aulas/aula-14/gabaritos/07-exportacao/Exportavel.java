@@ -1,0 +1,1 @@
+public interface Exportavel { byte[] exportar(); String getFormato(); default String nomeArquivo(){return "exportacao."+getFormato().toLowerCase();} static boolean formatoSuportado(String f){return f.equalsIgnoreCase("PDF")||f.equalsIgnoreCase("CSV");} }

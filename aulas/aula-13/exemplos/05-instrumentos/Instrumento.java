@@ -1,0 +1,1 @@
+public abstract class Instrumento {protected String marca;protected int ano;protected double preco;public Instrumento(String m,int a,double p){marca=m;ano=a;preco=p;}public abstract String produzirSom();public abstract String afinar();public void exibir(){System.out.println(marca+" "+ano+" R$"+preco);}}

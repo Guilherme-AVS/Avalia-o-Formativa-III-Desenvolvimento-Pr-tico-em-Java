@@ -1,0 +1,1 @@
+public abstract class Entrega {protected String nome;protected double valor;public Entrega(String n,double v){nome=n;valor=v;}public abstract double calcularPrazo();public void exibir(){System.out.printf("%s: %.2f%n",nome,calcularPrazo());}}

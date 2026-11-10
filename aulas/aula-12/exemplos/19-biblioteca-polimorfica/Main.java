@@ -1,0 +1,1 @@
+public class Main { public static void main(String[] args){ItemBiblioteca[] itens={new Livro("Java POO"),new Revista("Tecnologia"),new Livro("Design" )};System.out.printf("Total: %.2f%n",ProcessadorMultas.total(itens,3));} }

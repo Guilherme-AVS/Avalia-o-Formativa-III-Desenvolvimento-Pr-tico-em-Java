@@ -1,0 +1,1 @@
+public class Carro extends MeioTransporte { public Carro(int capacidade,double velocidade){super(capacidade,velocidade);} @Override public void mover(double distancia){System.out.println("Carro percorrendo "+distancia+" km");} }

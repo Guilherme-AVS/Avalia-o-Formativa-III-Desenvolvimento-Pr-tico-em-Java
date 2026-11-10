@@ -1,0 +1,1 @@
+public class Produto implements Pagavel { private final String nome; private final double preco; public Produto(String n,double p){nome=n;preco=p;} public double calcularValor(){return preco;} public String getDescricao(){return "Produto "+nome;} }

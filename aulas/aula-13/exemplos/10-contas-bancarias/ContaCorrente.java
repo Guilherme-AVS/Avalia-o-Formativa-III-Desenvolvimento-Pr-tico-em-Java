@@ -1,0 +1,1 @@
+public class ContaCorrente extends Conta {private double limite;public ContaCorrente(String t,double s,double l){super(t,s);limite=l;}public void sacar(double v){if(v>0&&v<=saldo+limite)saldo-=v;}public String getTipo(){return "Conta Corrente";}}

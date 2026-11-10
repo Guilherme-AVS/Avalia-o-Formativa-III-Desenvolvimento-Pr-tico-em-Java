@@ -1,0 +1,1 @@
+public class Main{public static void main(String[] args){System.out.println(new Caminhao("ABC",10000,90,6));System.out.println(new Moto("XYZ",30,120,160));System.out.println(new Drone("DR1",5,60,30,120));}}
