@@ -1,1 +1,0 @@
-public class Servico implements Pagavel { private final String nome; private final double valor; private final int horas; public Servico(String n,double v,int h){nome=n;valor=v;horas=h;} public double calcularValor(){return valor*horas;} public String getDescricao(){return "Serviço "+nome;} }

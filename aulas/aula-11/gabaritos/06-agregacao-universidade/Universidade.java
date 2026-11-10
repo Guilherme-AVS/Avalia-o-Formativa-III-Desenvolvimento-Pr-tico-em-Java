@@ -1,1 +1,0 @@
-import java.util.List; public class Universidade { private final List<Professor> professores; public Universidade(List<Professor> professores){this.professores=professores;} public void listar(){for(Professor p:professores)System.out.println(p.getNome());} }

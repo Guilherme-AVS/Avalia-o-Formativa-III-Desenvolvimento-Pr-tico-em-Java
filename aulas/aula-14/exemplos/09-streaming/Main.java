@@ -1,1 +1,0 @@
-import java.util.*; public class Main { public static void main(String[] args){ List<Reproduzivel> itens=List.of(new Filme("Clean Code",120,900),new Podcast("Dev na Estrada",1800)); for(Reproduzivel r:itens){r.reproduzir();System.out.println(r.getResumo());} } }

@@ -1,1 +1,0 @@
-public class Main { public static void main(String[] args){ Entrega[] entregas={new EntregaTerrestre(100,10),new EntregaAerea(8,30),new EntregaExpressa(500)}; for(Entrega e:entregas) Logistica.imprimirFrete(e); } }

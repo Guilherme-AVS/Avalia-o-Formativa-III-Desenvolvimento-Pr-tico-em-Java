@@ -1,1 +1,0 @@
-public abstract class Relatorio {protected String nome;protected double valor;public Relatorio(String n,double v){nome=n;valor=v;}public abstract String gerar();public void exibir(){System.out.println(gerar());}}

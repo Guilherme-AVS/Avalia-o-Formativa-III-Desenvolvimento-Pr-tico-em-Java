@@ -1,1 +1,0 @@
-public class Caminhao extends Veiculo { private final int eixos; public Caminhao(String p,int e){super(p);eixos=e;} @Override public String toString(){return "Caminhao{"+super.toString()+", eixos="+eixos+"}";} }

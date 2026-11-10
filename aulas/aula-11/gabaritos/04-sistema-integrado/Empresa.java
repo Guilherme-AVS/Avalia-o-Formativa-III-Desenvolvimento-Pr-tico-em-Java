@@ -1,1 +1,0 @@
-import java.util.List; public class Empresa { private final List<Veiculo> veiculos; public Empresa(List<Veiculo> veiculos){this.veiculos=veiculos;} public void listar(){for(Veiculo v:veiculos)System.out.println(v);} }

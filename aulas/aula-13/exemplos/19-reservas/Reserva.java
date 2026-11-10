@@ -1,1 +1,0 @@
-public abstract class Reserva {protected String nome;protected double valor;public Reserva(String n,double v){nome=n;valor=v;}public abstract double calcularPreco();public void exibir(){System.out.printf("%s: %.2f%n",nome,calcularPreco());}}

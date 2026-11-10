@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2026-09-16T00:00:00.000Z" agent="ChatGPT" version="24.7.17">
-<diagram id="aula08" name="06 — Composição">
-<mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000">
-<root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c1" value="&lt;b&gt;Pedido&lt;/b&gt;&lt;hr/&gt;- numero : String&lt;br/&gt;- itens : List&lt;ItemPedido&gt;&lt;hr/&gt;+ adicionarItem() : void&lt;br/&gt;+ calcularTotal() : double" style="shape=umlClass;whiteSpace=wrap;html=1;container=1;recursiveResize=0;align=left;verticalAlign=top;spacingTop=5;spacingLeft=5;" vertex="1" parent="1"><mxGeometry x="70" y="110" width="330" height="180" as="geometry"/></mxCell><mxCell id="c2" value="&lt;b&gt;ItemPedido&lt;/b&gt;&lt;hr/&gt;- produto : String&lt;br/&gt;- quantidade : int&lt;br/&gt;- preco : double&lt;hr/&gt;+ calcularSubtotal() : double" style="shape=umlClass;whiteSpace=wrap;html=1;container=1;recursiveResize=0;align=left;verticalAlign=top;spacingTop=5;spacingLeft=5;" vertex="1" parent="1"><mxGeometry x="520" y="110" width="300" height="180" as="geometry"/></mxCell><mxCell id="100" value="itens&lt;br/&gt;1 : 1..*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=diamond;endFill=1;" edge="1" parent="1" source="c1" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell></root>
-</mxGraphModel>
-</diagram>
-</mxfile>

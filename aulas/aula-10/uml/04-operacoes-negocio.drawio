@@ -1,6 +1,0 @@
-<mxfile host="app.diagrams.net"><diagram name="Operações de negócio"><mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c0" value="ContaBancaria
-- saldo : double
----
-+ getSaldo() : double
-+ depositar(valor:double) : void
-+ sacar(valor:double) : boolean" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1"><mxGeometry x="40" y="40" width="240" height="172" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>

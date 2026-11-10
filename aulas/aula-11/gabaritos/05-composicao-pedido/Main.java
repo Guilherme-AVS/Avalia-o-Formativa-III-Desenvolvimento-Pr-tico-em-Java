@@ -1,1 +1,0 @@
-public class Main { public static void main(String[] args){Pedido p=new Pedido();p.adicionarItem("Teclado",2,100);p.adicionarItem("Mouse",1,50);System.out.printf("Total: %.2f%n",p.calcularTotal());} }

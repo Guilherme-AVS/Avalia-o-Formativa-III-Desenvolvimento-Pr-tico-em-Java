@@ -1,1 +1,0 @@
-public abstract class Veiculo {protected String marca;protected int ano;public Veiculo(String m,int a){marca=m;ano=a;}public abstract String mover();public void exibir(){System.out.println(marca+" "+ano);}}

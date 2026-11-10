@@ -1,1 +1,0 @@
-public class PedidoService { private final Notificavel notificador; public PedidoService(Notificavel n){notificador=n;} public void confirmar(String id){notificador.enviar("Pedido "+id+" confirmado");} }

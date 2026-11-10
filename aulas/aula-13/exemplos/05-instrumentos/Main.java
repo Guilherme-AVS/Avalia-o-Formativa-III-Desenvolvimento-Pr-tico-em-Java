@@ -1,1 +1,0 @@
-public class Main {public static void main(String[] args){Instrumento[] xs={new Guitarra("Fender",2024,5000,22),new Piano("Yamaha",2025,9000,88)};for(Instrumento x:xs){x.exibir();System.out.println(x.produzirSom());System.out.println(x.afinar());}}}

@@ -1,1 +1,0 @@
-public class Circulo implements Calculavel { private final double raio; public Circulo(double r){if(r<=0)throw new IllegalArgumentException("Raio inválido");raio=r;} public double calcularArea(){return Math.PI*raio*raio;} public double calcularPerimetro(){return 2*Math.PI*raio;} public String getNome(){return "Círculo";} }

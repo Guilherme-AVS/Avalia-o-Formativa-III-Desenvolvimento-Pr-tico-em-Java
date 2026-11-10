@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><mxfile host="app.diagrams.net"><diagram name="03-instrumentos"><mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="a" value="«abstract» Instrumento
-# marca
-# ano
-# preco
-+ produzirSom()
-+ afinar()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" vertex="1" parent="1"><mxGeometry x="300" y="50" width="240" height="150" as="geometry"/></mxCell><mxCell id="b" value="Guitarra
-- trastes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="140" y="300" width="200" height="80" as="geometry"/></mxCell><mxCell id="c" value="Piano
-- teclas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="500" y="300" width="200" height="80" as="geometry"/></mxCell><mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="b" target="a"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="c" target="a"><mxGeometry relative="1" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>

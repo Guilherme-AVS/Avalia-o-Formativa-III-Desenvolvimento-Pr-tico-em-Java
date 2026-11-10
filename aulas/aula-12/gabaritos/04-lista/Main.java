@@ -1,1 +1,0 @@
-import java.util.*; public class Main { public static void main(String[] args){List<Animal> l=new ArrayList<>();l.add(new Cachorro());l.add(new Gato());l.add(new Passaro());l.forEach(Animal::emitirSom);} }

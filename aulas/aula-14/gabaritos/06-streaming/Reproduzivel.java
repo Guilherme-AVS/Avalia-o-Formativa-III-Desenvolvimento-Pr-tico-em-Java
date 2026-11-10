@@ -1,1 +1,0 @@
-public interface Reproduzivel { void reproduzir(); void pausar(); void avaliar(int nota); String getTitulo(); int getDuracao(); default String getResumo(){return getTitulo()+" ("+getDuracao()+"s)";} }

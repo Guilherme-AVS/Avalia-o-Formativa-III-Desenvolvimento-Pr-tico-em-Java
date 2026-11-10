@@ -1,1 +1,0 @@
-public class Retangulo extends Forma {private double b,h; public Retangulo(String c,double b,double h){super(c);this.b=b;this.h=h;} @Override public double calcularArea(){return b*h;} @Override public double calcularPerimetro(){return 2*(b+h);}}

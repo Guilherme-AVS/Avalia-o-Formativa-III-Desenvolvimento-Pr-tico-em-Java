@@ -1,1 +1,0 @@
-public class Piano extends Instrumento {private int teclas;public Piano(String m,int a,double p,int t){super(m,a,p);teclas=t;}public String produzirSom(){return "Piano";}public String afinar(){return "Afinando piano";}}

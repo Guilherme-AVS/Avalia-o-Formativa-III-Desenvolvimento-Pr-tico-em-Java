@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><mxfile host="app.diagrams.net"><diagram name="06-classe-vs-interface"><mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="a" value="Classe abstrata
-estado
-construtor
-métodos concretos
-métodos abstratos
-extends único" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" vertex="1" parent="1"><mxGeometry x="80" y="70" width="270" height="150" as="geometry"/></mxCell><mxCell id="b" value="Interface
-contrato
-implements múltiplo
-default/static" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="450" y="70" width="270" height="150" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>

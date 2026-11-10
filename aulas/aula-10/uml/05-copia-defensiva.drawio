@@ -1,5 +1,0 @@
-<mxfile host="app.diagrams.net"><diagram name="Cópia defensiva"><mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c0" value="Turma
-- alunos : List&lt;Aluno&gt;
----
-+ adicionarAluno(a:Aluno) : void
-+ getAlunos() : List&lt;Aluno&gt;" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1"><mxGeometry x="40" y="40" width="240" height="154" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>

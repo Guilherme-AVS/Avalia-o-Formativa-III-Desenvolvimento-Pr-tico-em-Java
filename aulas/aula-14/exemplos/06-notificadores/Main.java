@@ -1,1 +1,0 @@
-public class Main { public static void main(String[] args){ ServicoNotificacao s=new ServicoNotificacao(); s.adicionar(new EmailNotificador("ana@email.com")); s.adicionar(new SmsNotificador("81999990000")); s.notificarTodos("Pedido confirmado!"); } }

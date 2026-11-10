@@ -1,1 +1,0 @@
-public class Drone extends Veiculo { private final int autonomia; private final int altitude; public Drone(String p,double c,int v,int a,int alt){super(p,c,v);autonomia=a;altitude=alt;} @Override public String toString(){return "Drone{"+super.toString()+", autonomia="+autonomia+", altitude="+altitude+"}";} }

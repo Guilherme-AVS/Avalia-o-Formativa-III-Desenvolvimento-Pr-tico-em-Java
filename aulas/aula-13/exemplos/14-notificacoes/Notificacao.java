@@ -1,1 +1,0 @@
-public abstract class Notificacao {protected String nome;protected double valor;public Notificacao(String n,double v){nome=n;valor=v;}public abstract String enviar();public void exibir(){System.out.println(enviar());}}

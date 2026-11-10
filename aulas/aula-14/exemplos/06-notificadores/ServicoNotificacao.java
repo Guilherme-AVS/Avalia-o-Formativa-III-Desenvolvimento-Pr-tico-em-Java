@@ -1,1 +1,0 @@
-import java.util.*; public class ServicoNotificacao { private final List<Notificavel> lista=new ArrayList<>(); public void adicionar(Notificavel n){lista.add(n);} public void notificarTodos(String m){for(Notificavel n:lista)n.enviar(m);} }

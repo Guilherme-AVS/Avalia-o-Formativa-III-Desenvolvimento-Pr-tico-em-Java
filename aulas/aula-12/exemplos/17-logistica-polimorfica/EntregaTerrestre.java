@@ -1,1 +1,0 @@
-public class EntregaTerrestre extends Entrega { private final double km,peso; public EntregaTerrestre(double km,double peso){this.km=km;this.peso=peso;} @Override public double calcularFrete(){return km*0.8+peso*0.5;} }

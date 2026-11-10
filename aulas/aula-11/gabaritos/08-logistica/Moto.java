@@ -1,1 +1,0 @@
-public class Moto extends Veiculo { private final int cilindrada; public Moto(String p,double c,int v,int ci){super(p,c,v);cilindrada=ci;} @Override public String toString(){return "Moto{"+super.toString()+", cilindrada="+cilindrada+"}";} }

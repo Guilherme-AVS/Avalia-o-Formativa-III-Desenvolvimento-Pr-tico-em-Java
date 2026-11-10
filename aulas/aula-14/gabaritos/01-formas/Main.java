@@ -1,1 +1,0 @@
-import java.util.*; public class Main { public static void main(String[] args){ List<Calculavel> formas=List.of(new Circulo(2),new Retangulo(3,4),new Triangulo(3,4,5)); for(Calculavel f:formas)System.out.printf("%s: %.2f / %.2f%n",f.getNome(),f.calcularArea(),f.calcularPerimetro()); } }

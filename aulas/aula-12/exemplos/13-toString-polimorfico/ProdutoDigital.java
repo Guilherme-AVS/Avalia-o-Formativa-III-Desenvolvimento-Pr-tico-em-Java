@@ -1,1 +1,0 @@
-public class ProdutoDigital extends Produto { private final double tamanhoMb; public ProdutoDigital(String nome,double tamanhoMb){ super(nome); this.tamanhoMb=tamanhoMb; } @Override public String toString(){ return "ProdutoDigital{" + super.toString() + ", tamanhoMb=" + tamanhoMb + "}"; } }

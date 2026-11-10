@@ -1,1 +1,0 @@
-public class Main { public static void main(String[] args){ ContaBancaria c=new ContaBancaria("Ana",1000,"123"); Autenticavel a=c; Pagavel p=c; Tributavel t=c; System.out.println(a.autenticar("123")); System.out.println(p.gerarRecibo()); System.out.println(t.calcularImposto()); } }

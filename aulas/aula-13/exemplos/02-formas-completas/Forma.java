@@ -1,1 +1,0 @@
-public abstract class Forma { protected String cor; public Forma(String c){cor=c;} public abstract double calcularArea(); public abstract double calcularPerimetro(); public void exibirDados(){System.out.println("Cor: "+cor);System.out.printf("Area %.2f | Perimetro %.2f%n",calcularArea(),calcularPerimetro());} }

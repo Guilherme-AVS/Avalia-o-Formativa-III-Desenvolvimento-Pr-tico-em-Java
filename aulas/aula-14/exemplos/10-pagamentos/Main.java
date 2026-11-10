@@ -1,1 +1,0 @@
-import java.time.*; import java.util.*; public class Main { public static void main(String[] args){ List<Pagavel> ps=List.of(new Fatura("Energia",250,LocalDate.now().plusDays(10)),new Funcionario("Ana",5000,"123")); for(Pagavel p:ps)System.out.println(p.getDescricao()+" R$"+p.getValor()); } }

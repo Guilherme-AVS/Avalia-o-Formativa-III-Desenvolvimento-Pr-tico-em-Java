@@ -1,1 +1,0 @@
-public class Produto implements Pagavel { private final double preco; public Produto(double preco){ if(!Pagavel.validarValor(preco)) throw new IllegalArgumentException("Preço inválido"); this.preco=preco; } @Override public double calcularValor(){ return preco; } }

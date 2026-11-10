@@ -1,1 +1,0 @@
-public class Circulo extends Forma {private double r;public Circulo(String c,double r){super(c);this.r=r;}public double calcularArea(){return Math.PI*r*r;}public double calcularPerimetro(){return 2*Math.PI*r;}}
