@@ -1,17 +1,12 @@
-# POO Java — 2026.2
+# Avaliação Formativa III - POO Java 2026.2
 
-Repositório da disciplina de **Programação Orientada a Objetos — Java**.
+**Aluno:** Guilherme
+**Professora:** Ivna Valença de Oliveira
 
-## Estrutura
+Sistema de Gerenciamento de Biblioteca desenvolvido em Java para a disciplina de Programação Orientada a Objetos. 
 
-- `aulas/` — 23 aulas completas.
-- `exercicios/` — listas gerais.
-- `desafios/` — desafios.
-- `gabaritos/` — resoluções.
-- `avaliacoes/` — avaliações.
-- `projeto-integrador/` — Projeto Integrador.
-- `assets/diagramas/` — diagramas editáveis.
-- `docs/` — documentação.
-- `scripts/` — validações.
-
-**Profª Ivna Valença de Oliveira · 2026.2**
+O projeto contempla os seguintes requisitos:
+- Organização em pacotes (`interfaces`, `model`, `service`, `app`)
+- Implementação de Interfaces (`Emprestavel`)
+- Tratamento de Exceções personalizadas (`LivroNaoEncontradoException`)
+- Uso de Collections (`ArrayList`)
